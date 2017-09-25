@@ -74,6 +74,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7092E51F73330E00054A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C10CC1F7321ED00932184 /* AppDelegate.swift */,
+				7A8C10D31F7321ED00932184 /* Assets.xcassets */,
+				7A8C10D51F7321ED00932184 /* LaunchScreen.storyboard */,
+				7A8C10D81F7321ED00932184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		7A8C10C01F7321ED00932184 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +109,9 @@
 		7A8C10CB1F7321ED00932184 /* Stanford Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				7A8C10CC1F7321ED00932184 /* AppDelegate.swift */,
+				7A7092E51F73330E00054A52 /* Supporting Files */,
 				7A8C10CE1F7321ED00932184 /* ViewController.swift */,
 				7A8C10D01F7321ED00932184 /* Main.storyboard */,
-				7A8C10D31F7321ED00932184 /* Assets.xcassets */,
-				7A8C10D51F7321ED00932184 /* LaunchScreen.storyboard */,
-				7A8C10D81F7321ED00932184 /* Info.plist */,
 			);
 			path = "Stanford Calculator";
 			sourceTree = "<group>";
@@ -428,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Stanford Calculator/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stanford Calculator/New Group/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleygriggs.Stanford-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Stanford Calculator/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stanford Calculator/New Group/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleygriggs.Stanford-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
